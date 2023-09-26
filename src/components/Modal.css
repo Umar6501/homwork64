@@ -1,0 +1,22 @@
+header {
+  width: 1240px;
+  margin: 0 auto;
+  height: 90px;
+  padding: 17px 0px;
+}
+header .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .content .search {
+  width: 100%;
+}
+header .content .ff {
+  width: 13%;
+}
+header .content .select-fg {
+  width: 16%;
+  margin-right: 9px;
+}
