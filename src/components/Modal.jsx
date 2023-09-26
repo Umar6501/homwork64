@@ -28,9 +28,8 @@ function Example() {
           />
         </Form>
         <Form.Select className="select-fg">
-          <option value="junior">junior</option>
-          <option value="middle">middle</option>
-          <option value="senior">senior</option>
+          <option value="junior">Male</option>
+          <option value="middle">Famale</option>
         </Form.Select>
         <Button variant="primary" onClick={handleShow} className="ff">
           Add Students
@@ -61,14 +60,13 @@ function Example() {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="typePosition">
-              <Form.Label>Type Position</Form.Label>
+              <Form.Label>Male</Form.Label>
               <Form.Select
               // value={typePosition}
               // onChange={(e) => setTypePosition(e.target.value)}
               >
-                <option value="junior">junior</option>
-                <option value="middle">middle</option>
-                <option value="senior">senior</option>
+                <option value="junior">male</option>
+                <option value="middle">famale</option>={" "}
               </Form.Select>
             </Form.Group>
           </Modal.Body>

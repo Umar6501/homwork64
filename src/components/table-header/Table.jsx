@@ -11,8 +11,8 @@ export class Hero extends Component {
             <th>#</th>
             <th>Firstname</th>
             <th>Lastname</th>
-            <th>Group</th>
-            <th>Does work?</th>
+            <th>Phone</th>
+            <th>Sex</th>
             <th className="text-end">Action</th>
           </tr>
         </thead>
